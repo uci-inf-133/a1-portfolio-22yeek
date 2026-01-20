@@ -1,0 +1,28 @@
+.welcome {
+    justify-content: center;
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 12vh;
+}
+
+header {
+    background-color: #262626;
+}
+
+footer {
+    background-color: #262626;
+}
+
+.menu {
+    text-align: left;
+}
+
+.logo {
+    text-align: center;
+}
+
+.contact {
+    text-align: right;
+}
