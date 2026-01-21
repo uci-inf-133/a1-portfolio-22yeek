@@ -1,0 +1,37 @@
+.contact-body {
+    background-image: conic-gradient(at 50% 50%, #262626, #000000 75%, #262626);
+}
+
+.fields-container {
+    gap: 20px;
+}
+
+.contact-text {
+    font-size: 6vh;
+    line-height: 1;
+}
+
+.sublabel {
+    color: #767676;
+    font-size: small;
+}
+
+.name {
+    width: 20em;
+}
+
+.email {
+    width: 20em;
+}
+
+.phone-3 {
+    width: 3.1em;
+}
+
+.phone-4 {
+    width: 3.7em;
+}
+
+.message {
+    width: 50em;
+}

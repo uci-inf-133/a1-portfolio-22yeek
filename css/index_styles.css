@@ -4,7 +4,7 @@
 }
 
 .welcome-body {
-    background-image: radial-gradient(#262626, #000000);
+    background-image: radial-gradient(#262626, #000000 30%, #262626 60%, #000000 80%);
 }
 
 .welcome-text {
