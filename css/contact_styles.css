@@ -1,5 +1,5 @@
 .contact-body {
-    background-image: conic-gradient(at 50% 50%, #262626, #000000 75%, #262626);
+    background-image: linear-gradient(to top, #000000 50%, #262626);
 }
 
 .fields-container {
