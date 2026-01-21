@@ -5,11 +5,15 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 12pt;
-    color: #dcdcdc;
+    color: #f5f5f5;
     background-color: #262626;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .special {
-    color: #f5f5f5;
     font-weight: 700;
 }

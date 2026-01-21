@@ -5,78 +5,82 @@
 
 .welcome-text {
     font-size: 12vh;
+    line-height: 1;
 }
 
 @keyframes click-glow {
     0% {
-        color: #ffffff;
+        color: #262626;
     }
 
     15% {
-        color: #e9e9e9;
-    }
-
-    25% {
-        color: #d4d4d4;
-    }
-
-    35% {
-        color: #bebebe;
-    }
-
-    45% {
-        color: #a8a8a8;
-    }
-
-    55% {
-        color: #929292;
-    }
-
-    65% {
-        color: #7d7d7d;
-    }
-
-    75% {
-        color:#676767;
-    }
-
-    85% {
-        color: #515151;
-    }
-
-    95% {
         color: #3c3c3c;
     }
 
+    22% {
+        color: #515151;
+    }
+
+    30% {
+        color: #676767;
+    }
+
+    38% {
+        color: #7d7d7d;
+    }
+
+    46% {
+        color: #929292;
+    }
+
+    54% {
+        color: #a8a8a8;
+    }
+
+    62% {
+        color:#bebebe;
+    }
+
+    70% {
+        color: #d4d4d4;
+    }
+
+    78% {
+        color: #e9e9e9;
+    }
+
     100% {
-        color: #262626;
+        color: #ffffff;
     }
 }
 
 .click-text {
+    color: #262626;
     font-size: 3vh;
+    line-height: 1;
     animation-name: click-glow;
-    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-duration: 1.25s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 header {
     background-color: #262626;
+    gap: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+header div {
+    align-content: center;
 }
 
 footer {
     background-color: #262626;
 }
 
-.menu {
-    text-align: left;
-}
-
 .logo {
     font-size: 4vh;
 }
 
-.contact {
-    text-align: right;
-}
