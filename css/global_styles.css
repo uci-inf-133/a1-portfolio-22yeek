@@ -21,8 +21,7 @@ a {
 
 header {
     gap: 2.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    padding: 2.5% 2.5% 0 2.5%;
 }
 
 header div {
@@ -33,8 +32,18 @@ header a:hover {
     color:#ffffff;
 }
 
-.logo {
+footer {
+    padding-bottom: 0.5%;
+}
+
+.logo-by {
+    font-size: 2vh;
+    line-height: 1;
+}
+
+.logo-yeek {
     font-size: 4vh;
+    line-height: 1;
 }
 
 .btn, .form-control {
