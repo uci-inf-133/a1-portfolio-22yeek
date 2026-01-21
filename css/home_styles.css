@@ -1,3 +1,33 @@
 .home-body {
-    background-image: conic-gradient(at 50% 50%, #262626, #000000 85%, #262626);
+    background-image: conic-gradient(at 100% 100%, #262626, #000000 85%, #262626);
+}
+
+.project-section {
+    margin: 2.5% 2.5% 2.5% 2.5%;
+}
+
+.project-info {
+    width: 47.5%;
+}
+
+.project-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 47.5%;
+}
+
+.project-video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    max-width: 47.5%;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
 }
