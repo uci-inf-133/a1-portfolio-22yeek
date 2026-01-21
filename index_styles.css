@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.welcome-body {
+    background-image: radial-gradient(#262626, #000000);
+}
+
 .welcome-text {
     font-size: 12vh;
     line-height: 1;
@@ -64,23 +68,3 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
-header {
-    background-color: #262626;
-    gap: 2.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-}
-
-header div {
-    align-content: center;
-}
-
-footer {
-    background-color: #262626;
-}
-
-.logo {
-    font-size: 4vh;
-}
-

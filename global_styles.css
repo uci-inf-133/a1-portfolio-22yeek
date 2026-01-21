@@ -17,3 +17,18 @@ a {
 .special {
     font-weight: 700;
 }
+
+
+header {
+    gap: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+header div {
+    align-content: center;
+}
+
+.logo {
+    font-size: 4vh;
+}
