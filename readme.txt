@@ -43,7 +43,9 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
+    https://fonts.google.com/selection/embed - font
+    https://www.w3schools.com/html/html5_semantic_elements.asp - header, main, footer
+    https://getbootstrap.com/docs/4.3/components/forms/ - forms
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
