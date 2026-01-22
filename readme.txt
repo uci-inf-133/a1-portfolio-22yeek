@@ -10,47 +10,49 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
 
-
+I did all of the ones mentioned EXCEPT adding custom icons.
 
 (b) CSS features
 
-
+I did all of the ones mentioned.
 
 (c) Advanced features
 
-
+I did all of the ones mentioned EXCEPT create a table. I did use lots of d-flex though.
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
-
+No I did not. I tried to be as accessible as possible by following the guidance of the checker and my own discretion.
 
 4. How long, in hours, did it take you to complete this assignment?
 
-
+This took me around 25 hours
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
     https://fonts.google.com/selection/embed - font
     https://www.w3schools.com/html/html5_semantic_elements.asp - header, main, footer
     https://getbootstrap.com/docs/4.3/components/forms/ - forms
+    ChatGPT for color hexcode generation between two given color hexcodes. 
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+I did not consult anyone.
 
 7. Is there anything special we need to know in order to run your code?
 
+You must have all of the files together and start at index.html.
