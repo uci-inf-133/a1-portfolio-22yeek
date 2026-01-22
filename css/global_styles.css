@@ -22,6 +22,7 @@ a {
 header {
     gap: 2.5%;
     padding: 2.5% 2.5% 2.5% 2.5%;
+    z-index: 10;
 }
 
 header div {

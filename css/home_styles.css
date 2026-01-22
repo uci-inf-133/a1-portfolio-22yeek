@@ -1,5 +1,24 @@
+header {
+    background-image: linear-gradient(to right, #000000 40%, #262626);
+}
+
 .home-body {
-    background-image: conic-gradient(at 100% 100%, #262626, #000000 85%, #262626);
+    background-image: linear-gradient(to right, #000000 40%, #262626);
+}
+
+.personal-img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1%;
+}
+
+.personal-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.25);
 }
 
 .project-section {
