@@ -4,7 +4,7 @@ body {
     font-family: 'Play', 'Arial', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12pt;
+    font-size: 1rem;
     color: #f5f5f5;
     background-color: #262626;
     -ms-overflow-style: none !important;
@@ -26,13 +26,9 @@ a {
 
 
 header {
-    gap: 2.5%;
-    padding: 2.5% 2.5% 2.5% 2.5%;
+    gap: 2rem;
+    padding: 2rem;
     z-index: 10;
-}
-
-header div {
-    align-content: center;
 }
 
 header a:hover {
@@ -40,16 +36,16 @@ header a:hover {
 }
 
 footer {
-    padding-bottom: 0.5%;
+    padding-bottom: 0.5rem;
 }
 
 .logo-by {
-    font-size: 2vh;
+    font-size: 1rem;
     line-height: 1;
 }
 
 .logo-yeek {
-    font-size: 4vh;
+    font-size: 2.5rem;
     line-height: 1;
 }
 
@@ -71,4 +67,13 @@ footer {
 
 ::placeholder {
     color: #7e7e7e !important;
+}
+
+@media (max-width: 768px) {
+    header {
+        gap: 1rem;
+        padding: 1rem;
+        z-index: 10;
+    }
+
 }

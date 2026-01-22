@@ -1,20 +1,15 @@
-.logo-container {
-    justify-content: center;
-    text-align: center;
-}
-
 .start-body {
     background-image: linear-gradient(to right, #000000 45%, #262626);
 }
 
 .logo-by {
-    font-size: 6vh !important;
-    line-height: 1 !important;
+    font-size: 3rem;
+    line-height: 1;
 }
 
 .logo-yeek {
-    font-size: 12vh !important;
-    line-height: 1 !important;
+    font-size: 10rem;
+    line-height: 1;
 }
 
 @keyframes click-glow {
@@ -64,12 +59,34 @@
 }
 
 .click-text {
-    color: #262626;
-    font-size: 3vh;
+    color: transparent;
+    font-size: 2rem;
     line-height: 1;
     animation-name: click-glow;
     animation-delay: 1.5s;
     animation-duration: 1.25s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+@media (max-width: 768px) {
+    .logo-by {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+
+    .logo-yeek {
+        font-size: 4rem;
+        line-height: 1;
+    }
+    .click-text {
+        color: transparent;
+        font-size: 1rem;
+        line-height: 1;
+        animation-name: click-glow;
+        animation-delay: 1.5s;
+        animation-duration: 1.25s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
 }
