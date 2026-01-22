@@ -7,6 +7,12 @@ body {
     font-size: 12pt;
     color: #f5f5f5;
     background-color: #262626;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+}
+
+::-webkit-scrollbar {
+    display: none !important;
 }
 
 a {

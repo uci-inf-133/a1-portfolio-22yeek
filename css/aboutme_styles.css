@@ -1,0 +1,57 @@
+header {
+    background-image: linear-gradient(to right, #000000 45%, #262626);
+}
+
+.home-body {
+    background-image: linear-gradient(to right, #000000 45%, #262626);
+}
+
+.personal-img {
+    height: 25%;
+    width: 25%;
+    overflow: hidden;
+}
+
+.personal-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(2) translateX(2%);
+}
+
+.about-section {
+    margin: 2.5% 2.5% 2.5% 2.5%;
+}
+
+.about-info {
+    width: 47.5%;
+}
+
+.carousel {
+    width: 100%;
+    height: auto;
+    max-width: 47.5%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: slide 12s infinite;
+}
+
+.carousel img:nth-child(1) { animation-delay: 0s; }
+.carousel img:nth-child(2) { animation-delay: 4s; }
+.carousel img:nth-child(3) { animation-delay: 8s; }
+
+@keyframes slide {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  33%  { opacity: 1; }
+  43%  { opacity: 0; }
+  100% { opacity: 0; }
+}
