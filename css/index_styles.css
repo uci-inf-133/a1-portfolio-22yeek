@@ -4,7 +4,7 @@
 }
 
 .start-body {
-    background-image: radial-gradient(#262626, #000000);
+    background-image: linear-gradient(to right, #000000 45%, #262626);
 }
 
 .logo-by {

@@ -1,9 +1,5 @@
-header {
-    background-image: linear-gradient(to right, #000000 40%, #262626);
-}
-
-.home-body {
-    background-image: linear-gradient(to right, #000000 40%, #262626);
+header, .home-body {
+    background-image: linear-gradient(to right, #000000 45%, #262626);
 }
 
 .personal-img {
